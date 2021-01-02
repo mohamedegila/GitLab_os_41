@@ -1,0 +1,57 @@
+First scenario
+1.	git clone https://github.com/Ahmed-Saleh-007/git-test.git
+2.	git status
+3.	git add index.html
+4.	git push -u origin master
+5.	git commit -m "added h2 tag contain hello message"
+6.	git push -u origin master
+7.	git pull
+8.	git log
+commit ee49bd1ca9a3d2aa4104cf8066aaa1a0bdc8ba8b (HEAD -> master, origin/master, origin/HEAD)
+Merge: 1a53e3e e955007
+Author: mahmoudm4 <mahmoudm4895@gmail.com>
+Date:   Sat Jan 2 10:01:35 2021 +0200
+
+    Mahmoud edited message
+
+commit 1a53e3e095ef9405ea028d8d4a002203f70e34b6
+Author: mahmoudm4 <mahmoudm4895@gmail.com>
+Date:   Sat Jan 2 09:55:42 2021 +0200
+
+    Mahmoud edited message
+
+commit e95500706aac45ed542c4ca0feb147441074bfea
+Author: mohamedegila <mohammedegila@gmail.com>
+Date:   Sat Jan 2 09:47:54 2021 +0200
+
+    added h2 tag contain hello message
+
+commit 12714bbde77abdb4bbc8da2e067a8c9a49daa511
+Author: Ahmed-Saleh-007 <a85851a@gmail.com>
+Date:   Sat Jan 2 09:30:37 2021 +0200
+
+    add index file
+
+
+Second scenario
+
+1.	git init
+2.	git status
+3.	git add
+4.	git commit -m "added index file"
+5.	git branch -M master 
+6.	git remote add origin  https://github.com/mohamedegila/GitLab_os_41.git
+7.	git pull
+8.	git log
+commit 2aa8508653293073ae54b485236ac47d48e3605a (HEAD -> master, origin/master)
+Author: mahmoudm4 <mahmoudm4895@gmail.com>
+Date:   Sat Jan 2 10:42:53 2021 +0200
+
+    Mahmoud Edit
+
+commit 3ae81984e40f78d0fa5787533a6288942d05b933
+Author: mohamedegila <mohammedegila@gmail.com>
+Date:   Sat Jan 2 10:34:42 2021 +0200
+
+    added index file
+
